@@ -1,0 +1,6 @@
+from glue import *
+
+{source}
+
+res = worker(Request(json.loads(sys.stdin.read())))
+print(res.to_json())
