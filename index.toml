@@ -1,6 +1,7 @@
 version = 1
 
-[[runtimes]]name = "ruby"
+[[runtimes]]
+name = "ruby"
 version = "3.2.0+20230118-8aec06d"
 status = "active"
 args = [ "--", "/src/index.rb" ]
