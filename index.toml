@@ -9,3 +9,14 @@ binary = { url = "https://github.com/Angelmmiguel/wws-index-test/releases/downlo
 extensions = [ "rb" ]
 polyfill = { url = "https://raw.githubusercontent.com/Angelmmiguel/wws-index-test/main/ruby/poly.rb", filename = "poly.rb", checksum = { type = "sha256", value = "2ba09117ed20a05480615b2aaaf6c7cd7f61fa06f4919777d773df2fcbc736cf" } }
 wrapper = { url = "https://raw.githubusercontent.com/Angelmmiguel/wws-index-test/main/ruby/template.txt", filename = "template.txt", checksum = { type = "sha256", value = "6d808b4747cf30f82665a38a47e1176513bbdd6ad558c09db03d719e33ad2da0" } }
+
+[[runtimes]]
+name = "python"
+version = "3.11.1"
+status = "active"
+args = [ "--", "/src/index.py" ]
+binary = { url = "https://github.com/Angelmmiguel/wws-index-test/releases/download/preview/python-3.11.1.wasm", filename = "python.wasm", checksum = { type = "sha256", value = "18940f3f427c6e32b1cf0751ea1610a2601bc65529a87c2e139eca7ad3a1389d" } }
+extensions = [ "py" ]
+polyfill = { url = "https://raw.githubusercontent.com/Angelmmiguel/wws-index-test/main/python/poly.py", filename = "poly.py", checksum = { type = "sha256", value = "ce179a41a02ef4e71f4f6e0c84d06509393b104b3bc3238b4d30fac8d1b6884d" } }
+wrapper = { url = "https://raw.githubusercontent.com/Angelmmiguel/wws-index-test/main/python/template.txt", filename = "template.txt", checksum = { type = "sha256", value = "45a1df45a598355bdded272d814ecec600f4b162529124994062da8b0492767f" } }
+
