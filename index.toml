@@ -3,6 +3,7 @@ version = 1
 [[runtimes]]
 name = "ruby"
 version = "3.2.0"
+tags = [ "latest", "3" ]
 status = "active"
 args = [ "--", "/src/index.rb" ]
 binary = { url = "https://github.com/Angelmmiguel/wws-index-test/releases/download/preview/ruby-3.2.0-full.wasm", filename = "ruby.wasm", checksum = { type = "sha256", value = "23641ef154fee1fba4bb156c01642b3ebc0f46eb0eebe66502d979f64a114f31" } }
@@ -13,6 +14,7 @@ wrapper = { url = "https://raw.githubusercontent.com/Angelmmiguel/wws-index-test
 [[runtimes]]
 name = "python"
 version = "3.11.1"
+tags = [ "latest", "3" ]
 status = "active"
 args = [ "--", "/src/index.py" ]
 binary = { url = "https://github.com/Angelmmiguel/wws-index-test/releases/download/preview/python-3.11.1.wasm", filename = "python.wasm", checksum = { type = "sha256", value = "18940f3f427c6e32b1cf0751ea1610a2601bc65529a87c2e139eca7ad3a1389d" } }
